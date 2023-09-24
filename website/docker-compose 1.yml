@@ -1,0 +1,18 @@
+# Run docker-compose up -d in the (host) directory of the project
+# APPNICENAME=homer
+# APPDESCRIPTION=A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
+# ICONURL: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png
+version: "2"
+services:
+  homer:
+    image: b4bz/homer:20.12.19-arm32v7
+    #To build from source, comment previous line and uncomment below
+    #build: .
+    container_name: homer
+    volumes:
+      - /shares/Programs/EX2Ultra/Homer:/www/assets:rw
+    ports:
+      - 8080:8080
+    user: 1000:1000 # default
+    environment:
+      - INIT_ASSETS=1 # default
