@@ -1,12 +1,12 @@
 {
-    "name":"Homer dashboard",
-    "short_name":"Homer",
+    "name":"Fiesta",
+    "short_name":"Fiesta",
     "start_url":"/",
     "display":"standalone",
     "background_color":"#ffffff",
     "lang":"en","scope":"../",
     "description":"Home Server Dashboard",
-    "theme_color":"#3367D6",
+    "theme_color":"#4b0082",
     "icons": [
         {
             "src":"./icons/pwa-192x192.png",
