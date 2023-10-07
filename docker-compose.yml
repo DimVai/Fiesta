@@ -2,7 +2,7 @@
 # APPNICENAME=homer
 # APPDESCRIPTION=A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
 # ICONURL: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png
-version: "2"
+version: "3"
 services:
   homer:
     image: nginx:1.21.3-alpine
@@ -12,3 +12,8 @@ services:
     ports:
       - 8080:80
     restart: on-failure
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:80"]
+        interval: 2m
+        timeout: 10s
+        retries: 3
