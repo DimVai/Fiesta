@@ -284,15 +284,15 @@ services:
       - name: "YouTube"
         logo: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052"
         tag: "website"
-        url: "https://www.youtube.com/"
+        url: "https://www.youtube.com/playlist?list=WL"
         target: "_blank"
 
   - name: "Develompent"
     icon: "fab fa-dev"
     items:
-      - name: "Localhost"
-        url: "http://localhost/"
-        # endpoint: "http://localhost/ping"
+      - name: "Dev App"
+        url: "http://192.168.2.102/"
+        # endpoint: "http://192.168.2.102/ping"
         logo: "https://exoffender.org/wp-content/uploads/2018/01/house-icon.png"
         # type: Ping  # needs ACAO
         # method: "get"
