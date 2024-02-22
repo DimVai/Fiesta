@@ -1,7 +1,7 @@
 # Run docker-compose up -d in the (host) directory of the project
 # APPNICENAME=homer
 # APPDESCRIPTION=A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
-# ICONURL: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png
+# ICONURL=https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png
 version: "3"
 services:
   homer:
