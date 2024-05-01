@@ -62,7 +62,7 @@ links:
     target: "_blank" # optional html a tag target attribute
   - name: "Pause Network Monitoring"
     icon: "fas fa-eye-slash"
-    url: "http://dim-cloud:5600/pause"
+    url: "http://192.168.2.100:5600/pause"
     target: "_blank" # optional html a tag target attribute
   # - name: "Refresh"
   #   icon: "fa fa-refresh"
