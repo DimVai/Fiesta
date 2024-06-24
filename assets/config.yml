@@ -119,8 +119,8 @@ services:
         logo: "https://developer.asustor.com/uploadIcons/0020_164382_1668033344_twonky-icon1.png"
         subtitle: "DLNA Server"
         tag: "server"
+        target: "_blank" 
         # type: Ping
-        # target: "_blank" 
       # - name: "Home Assistant"
       #   logo: "https://secure.gravatar.com/avatar/461df105cc6cfcf386ebd5af85b925dc.jpg"
       #   url: "http://dim-cloud:8123/"
