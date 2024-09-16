@@ -167,7 +167,7 @@ services:
     items:
       - name: "Router"
         url: "http://192.168.2.1/"    
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vodafone_icon.svg/1200px-Vodafone_icon.svg.png"
+        logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAaVBMVEXmAAD////lAADnDg79+Pj3zMz53Nz65eXmFRToOTn2wsL51dX99fXpRUX0srL0tbXvg4PoNDTqUlLwlpbzrKz88PDvi4vpTEvypqXrYmLnHBzoQUD1vb3oLi776+rnKSntdHTxnp7saWh6FXICAAABpklEQVRIie2W2XaCMBCG4ZcIGBZFi9alVN//IQviJJGZpOpVe45z5Qn5nH0m0Sx6Ud7gvwBxk+dAoGwrpbWq262PFUDkVRIbSepcRBmIXBko3X3usUz1QUCnIHYGO5a9j6ev4eeGk1NwTpjqhssn0p2FweyDuO+rDqTG1S4EgrjiNHJLJ0iZHwTZWewnB1dr4QNxpjuUAMSuVPCAK7qxpBvZHRiXMgjK39z+My7KATVE0ChsXLdxcPzcSiA2XOH4obYlAQmkVLTTKsHCkBKY08dppnvS1HzDQZPrgpcl1gSuwUFyUQud0BFYCyA5ogQQBf9XA+oQSCmZB0DJVKk2mKlCcKxGyVQKTrwSQMqHFBzTemeusgmkwxYAtxXHQAHYkuMqafDIJWedjJt70s4BschtW/Ud65JOjYttZZMVDzOAUMy0OfU0suNKn+nLuHP2Z+fQMzqcYTVIoupqkbonG9+wup+GTPzj0U0Jl9BAdlcA44IrwG/tb0tnGiE5LiIYYaWm2EOLNbqu8sJSSV0KmPfxcBgfD1VbPvF4uLGvPFcekTf4l8AfVv8OxMH1yN8AAAAASUVORK5CYII="
         subtitle: "Home Router"
         tag: "device"
         target: "_blank"
