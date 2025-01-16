@@ -256,7 +256,7 @@ services:
         tag: "application"
         target: "_blank"        
       - name: "Perplexity AI"
-        logo: "https://atai-main.b-cdn.net/tools/perplexity-icon.jpg"
+        logo: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png"
         url: "https://www.perplexity.ai/"
         tag: "application"
         target: "_blank"        
