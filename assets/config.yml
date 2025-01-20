@@ -107,7 +107,7 @@ services:
       - name: "Transmission"
         endpoint: "http://localhost:9999/dim-cloud/transmission"
         url: "http://192.168.2.100/transmission/web/"
-        logo: "https://seeklogo.com/images/T/transmission-logo-1B60697576-seeklogo.com.png"
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Transmission_icon.png"
         subtitle: "Torrent Server"
         tag: "server"
         target: "_blank"
@@ -325,7 +325,7 @@ services:
         # type: Ping
       - name: "Transmission"
         url: "http://vainanidis.ddns.net:56888/transmission/web/"
-        logo: "https://seeklogo.com/images/T/transmission-logo-1B60697576-seeklogo.com.png"
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Transmission_icon.png"
         subtitle: "Torrent Server"
         tag: "server"
         target: "_blank"
