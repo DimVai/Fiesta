@@ -1,7 +1,7 @@
 {
     "name":"Fiesta",
     "short_name":"Fiesta",
-    "start_url":"/",
+    "start_url":"./",
     "display":"standalone",
     "background_color":"#ffffff",
     "lang":"en","scope":"../",
