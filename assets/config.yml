@@ -329,6 +329,12 @@ services:
         subtitle: "Torrent Server"
         tag: "server"
         target: "_blank"
+      - name: "Network Monitor"
+        url: "http://vainanidis.ddns.net:5600"
+        logo: "https://assets.dryicons.com/uploads/icon/svg/11258/1bcb293f-8695-423a-a7f2-6239f23794b5.svg"
+        subtitle: "Check for internet"
+        tag: "server"
+        target: "_blank"
         # type: Ping
       # - name: "Portainer"
       #   logo: "https://cdn.worldvectorlogo.com/logos/portainer.svg"
