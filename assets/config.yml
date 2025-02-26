@@ -256,7 +256,7 @@ services:
         tag: "application"
         target: "_blank"        
       - name: "Perplexity AI"
-        logo: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png"
+        logo: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.24.0/files/dark/perplexity-color.png"
         url: "https://www.perplexity.ai/"
         tag: "application"
         target: "_blank"        
