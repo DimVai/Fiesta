@@ -174,7 +174,7 @@ services:
         title: "Network Status"
         content: "hello"
       - name: "Network Monitor"
-        type: Ping
+        # type: Ping
         # url: "http://dim-cloud:5600/"
         url: "https://dim-cloud:5443/"        
         logo: "https://assets.dryicons.com/uploads/icon/svg/11258/1bcb293f-8695-423a-a7f2-6239f23794b5.svg"
@@ -204,7 +204,7 @@ services:
         subtitle: "Check if services are up"
         tag: "service"
         # keywords: "self hosted reddit"
-        url: "https://uptimerobot.com/dashboard"
+        url: "https://dashboard.uptimerobot.com/monitors/793960881"
         target: "_blank"
 
 
